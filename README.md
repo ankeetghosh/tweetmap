@@ -10,7 +10,7 @@ Steps to run the project:
 1. Clone the repository.
 2. Enter the Google API Key in index.html, Twitter API Credentials & AWS credentials in server.js file.
 3. Check the port number or update the same in server.js. Do not forget to give access to that port by editing the details in the corresponding security group folder.
-4. Run the apllication on localhost along with the port number.
+4. Run the application on localhost along with the port number.
 
 
 
