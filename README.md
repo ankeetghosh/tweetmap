@@ -1,19 +1,18 @@
 # TwittMap
 ----
 
-TwittMap is a web application that collects and processes Tweets at real-time and represent them on Google Maps as markers based on the location. On Click, the marker shows the tweet text.
+TwittMap is a web application that collects tweets using twitter API's and stores them in AWS Elastic Search. Also, it populates the tweets on a google map based on certain filter criterias.
 
-Tweets are filtered based upon few topic selected by the user selected from the given dropdown  list.
+Tweets are filtered based upon few topics selected from the given dropdown  list in the web page.
 
 Steps to run the project:
 
 1. Clone the repository.
-2. Update the Google API Key in index.html and Twitter API Credentials in server.js
-3. Check the port number or update the same in server.js
-4. Update the AWS credentials in the server.js
-5. Run the apllication on localhost with port used.
+2. Enter the Google API Key in index.html, Twitter API Credentials & AWS credentials in server.js file.
+3. Check the port number or update the same in server.js. Do not forget to give access to that port by editing the details in the corresponding security group folder.
+4. Run the apllication on localhost along with the port number.
 
-The topics of searched have been harcoded. You can update the same or work with dynamic search as future work!
+
 
 
 
